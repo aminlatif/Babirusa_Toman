@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Magento\Framework\Locale\Format"
+                type="Babirusa\Toman\Model\Framework\Locale\Format"/>
+    <preference for="Magento\Framework\Currency"
+                type="Babirusa\Toman\Model\Framework\Currency"/>
+    <preference for="Magento\Framework\Locale\Config"
+                type="Babirusa\Toman\Model\Framework\Locale\Config"/>
+    <preference for="Magento\Config\Model\Config\Backend\Currency\Base"
+                type="Babirusa\Toman\Model\Config\Backend\Currency\Base"/>
+    <preference for="Magento\Config\Model\Config\Backend\Currency\Allow"
+                type="Babirusa\Toman\Model\Config\Backend\Currency\Allow"/>
+    <preference for="Magento\Config\Model\Config\Backend\Currency\DefaultCurrency"
+                type="Babirusa\Toman\Model\Config\Backend\Currency\DefaultCurrency"/>
+</config>
