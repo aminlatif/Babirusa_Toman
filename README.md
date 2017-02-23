@@ -4,4 +4,5 @@ Adding Iranian Toman to magento 2
 - This module is using custom resource files to add a new currecny to Magento 2.
 - I've added Iranian Toman to Magento 2 by this module but any custom currency (such as bitcoin, etc) can be added using the same method.
 - You can also install this module in your own project using composer, but use it at you own risk.
-note: Use composer to install this module, because without proper autoload configuration this module won't work.
+- note: Use composer to install this module, because without proper autoload configuration this module won't work.
+- If you have any questions contact me at info@babirusa.net
