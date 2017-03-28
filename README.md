@@ -6,6 +6,8 @@ Adding Iranian Toman to magento 2
 - You can also install this module in your own project using composer, but use it at you own risk.
 - note: Use composer to install this module, because without proper autoload configuration this module won't work.
 - If you have any questions contact me at info@babirusa.net
+
+
  اضافه کردن واحد پول تومان به مجنتو ۲
 - در صورتی که قصد استفاده از این ماژول را دارید حتما برای نصب آن از کامپوزر استفاده کنید.
 - در صورت بروز هر مشکلی به دلیل استفاده از این ماژول، هیچ مسئولیتی متوجه نویسنده ماژول نیست و هیچ پشتیبانی ارائه نمی شود.
