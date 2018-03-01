@@ -13,3 +13,8 @@ Adding Iranian Toman to magento 2
 - در صورت بروز هر مشکلی به دلیل استفاده از این ماژول، هیچ مسئولیتی متوجه نویسنده ماژول نیست و هیچ پشتیبانی ارائه نمی شود.
 - اگر سوالی دارید می توانید با ایمیل زیر با ما در تماس باشید:
 info@babirusa.net
+
+Install Guide:
+- composer config repositories.babirusa/toman vcs https://github.com/aminlatif/Babirusa_Toman.git
+- composer require babirusa/toman:dev-master
+- php bin/magento module:enable Babirusa_Toman
