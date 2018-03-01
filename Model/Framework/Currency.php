@@ -16,7 +16,8 @@ class Currency extends \Magento\Framework\Currency
             $options["name"] = "Iranian Toman";
             $options["currency"] = "IRT";
             $options["symbol"] = "Toman";
-            $options["format"] = "#,##0.00 ¤";
+            $options["format"] = "#،##0.00 ¤";
+            //$options["format"] = "#,##0.00 ¤";
             if($locale=="fa"||$locale=="fa_IR"){
                 $options["symbol"] = "تومان";
             }
@@ -29,6 +30,8 @@ class Currency extends \Magento\Framework\Currency
         if($this->_options['currency']=='IRT') {
             $options["precision"] = 0;
         }
-        return trim(parent::toCurrency($value, $options));
+        $currencyStr = trim(parent::toCurrency($value, $options));
+        //$currencyStr = str_replace(",", "،", $currencyStr);
+        return $currencyStr;
     }
 }

@@ -14,6 +14,7 @@ class Format extends \Magento\Framework\Locale\Format
         }
 
         $_format = parent::getPriceFormat($localeCode, $currencyCode);
+
         if($_currencyCode == 'IRT'){
             $_format["precision"]=0;
             $_format["requiredPrecision"]=0;

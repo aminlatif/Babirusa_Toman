@@ -2,7 +2,7 @@
   "name": "babirusa/toman",
   "description": "Adding Iranian Toman (IRT) to Magento Currencies",
   "type": "magento2-module",
-  "version": "010.0.0",
+  "version": "010.0.1",
   "autoload": {
     "files": [
       "Model/Framework/Locale/Bundle/CurrencyBundle.php",
